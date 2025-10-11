@@ -1,0 +1,10 @@
+package_rename_config:
+  android:
+    app_name: Changelog Component
+    package_name: com.example.changelogcomponent
+    override_old_package: com.example.changelogcomponent.changelog_component
+
+  web:
+    app_name: Changelog Component
+    short_app_name: Changelog Component
+    description: A flutter web app that demonstrates the Changelog Component for a site.

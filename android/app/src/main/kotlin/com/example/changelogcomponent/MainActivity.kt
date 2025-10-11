@@ -1,4 +1,4 @@
-package com.example.changelogcomponent.changelog_component
+package com.example.changelogcomponent
 
 import io.flutter.embedding.android.FlutterActivity
 

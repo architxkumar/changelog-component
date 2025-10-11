@@ -1,11 +1,11 @@
 {
-    "name": "changelog_component",
-    "short_name": "changelog_component",
+    "name": "Changelog Component",
+    "short_name": "Changelog Component",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A Flutter project built for frontend roadmap on roadmap.sh",
+    "description": "A flutter web app that demonstrates the Changelog Component for a site.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
