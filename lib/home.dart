@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+          padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
               SizedBox(
@@ -82,7 +82,7 @@ class ChangelogSection extends StatelessWidget {
         children: changeLogList
             .map(
               (e) => ChangelogItem(date: e.date, change: e.change),
-        )
+            )
             .toList(),
       ),
     );
@@ -135,12 +135,9 @@ class ChangelogItem extends StatelessWidget {
             ),
           ],
         ),
-        SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
-          child: Text(
-            change,
-            style: TextTheme.of(context).titleLarge,
-          ),
+        Text(
+          change,
+          style: TextTheme.of(context).titleLarge,
         ),
       ],
     );
